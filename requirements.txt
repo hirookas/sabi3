@@ -1,0 +1,8 @@
+pip install torch
+pip install torch.nn
+pip install streamlit
+pip install matplotlib.pyplot
+pip install PIL, Image, ImageDraw
+pip install torchvision, transforms, models
+pip install rcParams, font_manager
+pip install FontProperties
