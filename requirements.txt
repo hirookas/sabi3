@@ -1,20 +1,10 @@
 pip==24.2
 setuptools>=70
 wheel>=0.44.0
+numpy>=2.0,<3
+pandas>=2.2.2
+pyarrow>=20.0.0   # ※Parquet等が不要なら、この行ごと削除でもOK
 
-# 3.11 と相性の良いピン留め（すべてホイール有）
-numpy==2.0.2
-matplotlib==3.9.2
-kiwisolver==1.4.7
-contourpy==1.2.1
-fonttools==4.53.1
-pillow==10.4.0
-cycler==0.12.1
-python-dateutil==2.9.0.post0
-packaging==24.1
-
-pandas==2.2.2
-pyarrow==15.0.2
-protobuf==4.25.3
-altair==5.3.0
-streamlit==1.37.1
+# そのほか
+streamlit>=1.32
+opencv-python-headless>=4.9
