@@ -1,10 +1,12 @@
 pip==24.2
 setuptools>=70
 wheel>=0.44.0
+# ここを追加
+numpy==2.0.2
+# ここを 3.9.2 に上げる（3.9.0 はソースビルドに落ちやすい）
+matplotlib==3.9.2
 streamlit==1.37.1
-matplotlib==3.9.0
 pillow==10.4.0
-numpy==1.26.4
 torch==2.3.1
 torchvision==0.18.1
 opencv-python-headless==4.10.0.84
