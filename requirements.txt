@@ -1,6 +1,7 @@
-numpy
-torch
-streamlit
-matplotlib
-PIL
-torchvision
+numpy>=1.24
+torch==2.2.2
+torchvision==0.17.2
+streamlit==1.49.0
+matplotlib>=3.7
+Pillow>=10.0
+opencv-python-headless>=4.9  # GUIなし環境用（OpenCV使用時）
