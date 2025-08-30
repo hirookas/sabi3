@@ -2,7 +2,7 @@
 headless = true
 enableCORS = true
 enableXsrfProtection = true
-maxUploadSize = 1024
+maxUploadSize = 2048
 
 [theme]
 base = "light"
